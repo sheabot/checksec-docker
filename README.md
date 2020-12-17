@@ -6,6 +6,8 @@ Docker container with checksec.sh. A little tool for quickly surveying the mitig
 
 https://www.trapkit.de/tools/checksec/
 
+https://github.com/slimm609/checksec.sh
+
 
 ## Docker Hub
 

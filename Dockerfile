@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     rm -rf /var/lib/apt/lists/*
 
 # Install checksec.sh
-RUN curl -Ls https://www.trapkit.de/tools/checksec/checksec.sh -o /usr/local/bin/checksec && \
+RUN curl -Ls https://raw.githubusercontent.com/slimm609/checksec.sh/master/checksec -o /usr/local/bin/checksec && \
     chmod +x /usr/local/bin/checksec
 
 # Workspace volume from host
